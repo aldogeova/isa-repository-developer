@@ -1,0 +1,10 @@
+server.port: 8761
+eureka.client.register-with-eureka: false
+eureka.client.fetch-registry: false
+eureka.server.waitTimeInMsWhenSyncEmpty: 0
+eureka.serviceUrl.defaultZone: http://localhost:8761
+#logging.level.com.netflix: WARN, ERROR
+#logging.level.org.springframework: WARN, ERROR
+#logging.level.com.isa: WARN, ERROR, DEBUG
+#logging.file: isaEureka.log
+#logging.path: /Users/aldo/Projects/isa-cloud/log/

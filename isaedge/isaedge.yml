@@ -1,0 +1,33 @@
+#Configuracion del servidor
+server.port: 8383
+#Configuracion de Eureka
+eureka.instance.preferIpAddress: true
+eureka.client.registerWithEureka: true
+eureka.client.fetchRegistry: true
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
+#Configuracion de Zuul
+ribbon.ReadTimeout: 60000
+ribbon.ConnectTimeout: 60000
+sample-client.ribbon.MaxAutoRetries: 3
+zuul.ribbonIsolationStrategy: THREAD
+zuul.ignored-services: "*"
+zuul.prefix:  /api
+zuul.routes.isaauth: /auth/**
+zuul.routes.commonservice: /common/**
+zuul.routes.seguridadservice: /seguridad/**
+zuul.routes.facturacionoffline: /facturacionoffline/**
+zuul.routes.personaservice: /persona/**
+zuul.routes.comprobantesservice: /comprobantes/** 
+zuul.routes.inventarioservice: /inventario/**
+zuul.routes.contabilidadservice: /contabilidad/**
+zuul.sensitiveHeaders: Cookie,Set-Cookie
+
+zuul.host.connect-timeout-millis: 60000
+zuul.host.socket-timeout-millis: 60000
+zuul.ignored-headers:  Access-Control-Allow-Origin
+hystrix.command.default.execution.timeout.enabled: false
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 3600000
+spring.cloud.stream.bindings.output: profiles
+signing.key: "345345fsdfsf5345"
+spring.servlet.multipart.max-file-size: 50Mb
+spring.servlet.multipart.max-request-size: 50Mb

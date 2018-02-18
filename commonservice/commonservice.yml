@@ -1,0 +1,20 @@
+#Configuracion sERVIDOR
+server.port: 8120
+#Configuracion Seguridad
+security.oauth2.resource.userInfoUri: http://isa-auth:8901/auth/user
+#Configuracion de Eureka
+eureka.instance.preferIpAddress: true
+eureka.client.registerWithEureka: true
+eureka.client.fetchRegistry: true
+eureka.client.serviceUrl.defaultZone: http://isa-eureka:8761/eureka/
+#Configuracion de Correo Electronico
+spring.mail.host: smtp.gmail.com
+spring.mail.port: 587
+spring.mail.username: aldogeova@gmail.com
+spring.mail.password: 8914Gm@3l1987!
+spring.mail.properties.mail.smtp.auth: true
+spring.mail.properties.mail.smtp.starttls.enable: true
+spring.thymeleaf.check-template-location: false
+
+#Variables globales para todos los proyectos 
+servidor.zuul : http://isa-edge:8383/

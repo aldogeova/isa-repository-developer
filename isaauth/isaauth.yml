@@ -1,0 +1,28 @@
+#Configuracion del Servidor
+server.contextPath: /auth
+server.port: 8901
+#Configuracion de EUREKA
+eureka.instance.preferIpAddress: true
+eureka.client.registerWithEureka: true
+eureka.client.fetchRegistry: true
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
+#Configuracion de LOGS
+#logging.level.com.netflix: WARN, ERROR
+#logging.level.org.springframework: WARN, ERROR
+#logging.level.com.isa: WARN, ERROR, DEBUG
+#logging.file: isaAuth.log
+#logging.path: /Users/aldo/Projects/isa-cloud/log/
+#Configuracion de Base de Datos
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/isacode"
+spring.datasource.driver-class-name: "org.postgresql.Driver"
+spring.datasource.username: "postgres"
+spring.datasource.password: "postgres"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+#Configuracion de firma JWT
+signing.key: "345345fsdfsf5345"

@@ -1,0 +1,9 @@
+#Configuracion sERVIDOR
+server.port: 8083
+#Configuracion Seguridad
+security.oauth2.resource.userInfoUri: http://localhost:8901/auth/user
+#Configuracion de Eureka
+eureka.instance.preferIpAddress: true
+eureka.client.registerWithEureka: true
+eureka.client.fetchRegistry: true
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/

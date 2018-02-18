@@ -1,0 +1,22 @@
+#Configuracion sERVIDOR
+server.port: 8115
+#Configuracion de Base de Datos
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/isacode"
+spring.datasource.driver-class-name: "org.postgresql.Driver"
+spring.datasource.username: "postgres"
+spring.datasource.password: "postgres"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+#Configuracion de Correo Electronico
+spring.mail.host: smtp.gmail.com
+spring.mail.port: 587
+spring.mail.username: aldogeova@gmail.com
+spring.mail.password: 8914Gm@3l1987!
+spring.mail.properties.mail.smtp.auth: true
+spring.mail.properties.mail.smtp.starttls.enable: true
+spring.thymeleaf.check-template-location: false
