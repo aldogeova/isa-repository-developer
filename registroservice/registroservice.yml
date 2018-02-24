@@ -13,8 +13,11 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 #Configuracion de Correo Electronico
-spring.mail.host: gator4258.hostgator.com
+spring.mail.host: "gator4258.hostgator.com"
 spring.mail.port: 465
-spring.mail.username: info@trisqel.com
-spring.mail.password: VrrLufkqF3Qf
+spring.mail.username: "info@trisqel.com"
+spring.mail.password: "VrrLufkqF3Qf"
+spring.mail.properties.mail.smtp.starttls.enable: "true"
+spring.mail.properties.mail.smtp.starttls.required: "true"
+spring.mail.properties.mail.smtp.auth: "true"
 spring.thymeleaf.check-template-location: false
