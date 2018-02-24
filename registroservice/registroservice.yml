@@ -17,6 +17,4 @@ spring.mail.host: gator4258.hostgator.com
 spring.mail.port: 465
 spring.mail.username: info@trisqel.com
 spring.mail.password: VrrLufkqF3Qf
-spring.mail.properties.mail.smtp.auth: true
-spring.mail.properties.mail.smtp.starttls.enable: true
 spring.thymeleaf.check-template-location: false
