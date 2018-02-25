@@ -17,7 +17,7 @@ spring.mail.host: "gator3232.hostgator.com"
 spring.mail.username: "info@isacode.com"
 spring.mail.password: "D3GVAErIv);_"
 spring.mail.properties.mail.transport.protocol: "smtp"
-spring.mail.properties.mail.smtp.port: 25
+spring.mail.properties.mail.smtp.port: "465"
 spring.mail.properties.mail.smtp.auth: "true"
 spring.mail.properties.mail.smtp.starttls.enable: "true"
 spring.mail.properties.mail.smtp.starttls.required: "true"
