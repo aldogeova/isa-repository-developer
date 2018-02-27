@@ -18,4 +18,3 @@ spring.mail.username: "info@isacode.com"
 spring.mail.password: "D3GVAErIv);_"
 spring.mail.port: 587
 spring.mail.properties.mail.smtp.starttls.enable: "true"
-spring.thymeleaf.check-template-location: false
