@@ -31,3 +31,12 @@ spring.mail.username: aldogeova@gmail.com
 spring.mail.password: 8914Gm@3l1987!
 spring.mail.properties.mail.smtp.auth: true
 spring.mail.properties.mail.smtp.starttls.enable: true
+
+org.quartz.scheduler.instanceName: spring-boot-quartz-demo
+org.quartz.scheduler.instanceId: AUTO
+org.quartz.threadPool.threadCount: 5
+
+job.startDelay: 0
+job.repeatInterval: 5000
+job.description: Atorizacion Comprobantes JOB
+job.key: StatisticsJob
