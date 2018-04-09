@@ -1,7 +1,7 @@
 #Configuracion sERVIDOR
 server.port: 8085
 #Configuracion Seguridad
-security.oauth2.resource.userInfoUri: http://localhost:8901/auth/user
+#security.oauth2.resource.userInfoUri: http://localhost:8901/auth/user
 #Configuracion de Eureka
 eureka.instance.preferIpAddress: true
 eureka.client.registerWithEureka: true
