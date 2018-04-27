@@ -1,5 +1,6 @@
 #Configuracion Servidor
 server.port: 8099
+zuul.api.url: http://localhost:8383/api/
 #Configuracion Seguridad
 security.oauth2.resource.userInfoUri: http://localhost:8901/auth/user
 #Configuracion de Eureka
